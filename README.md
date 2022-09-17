@@ -1,6 +1,6 @@
-# UIKitAutoLayoutExample
+# UIKit AutoLayout Example Responsive
 
-UIKit Auto Layout Example - Responsive
+Content in collection view with pagination
 
 ## Screenshots
 
