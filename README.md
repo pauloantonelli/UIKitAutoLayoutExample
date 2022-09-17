@@ -1,6 +1,6 @@
-# CollectionViewUIKITExample
+# UIKitAutoLayoutExample
 
-UIKit CollectionView basic grid use example
+UIKit Auto Layout Example - Responsive
 
 ## Screenshots
 
