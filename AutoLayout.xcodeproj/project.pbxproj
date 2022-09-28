@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B2D130528E1D67900720085 /* ViewsConstraintsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D130428E1D67900720085 /* ViewsConstraintsViewController.swift */; };
+		7B2D130728E20AF500720085 /* NestedStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2D130628E20AF400720085 /* NestedStackViewController.swift */; };
 		7B3407B528D4EC4B005CE47E /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3407B428D4EC4B005CE47E /* SwipeCollectionViewCell.swift */; };
 		7B3407B728D4ED95005CE47E /* SwipeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3407B628D4ED95005CE47E /* SwipeCollectionViewController.swift */; };
 		7B3BA5A328CBBA2E0023D97C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3BA5A228CBBA2E0023D97C /* AppDelegate.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7B2D130428E1D67900720085 /* ViewsConstraintsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsConstraintsViewController.swift; sourceTree = "<group>"; };
+		7B2D130628E20AF400720085 /* NestedStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedStackViewController.swift; sourceTree = "<group>"; };
 		7B3407B428D4EC4B005CE47E /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
 		7B3407B628D4ED95005CE47E /* SwipeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeCollectionViewController.swift; sourceTree = "<group>"; };
 		7B3BA59F28CBBA2E0023D97C /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7B2D130328E1D64B00720085 /* ViewsConstraintsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7B2D130428E1D67900720085 /* ViewsConstraintsViewController.swift */,
+				7B2D130628E20AF400720085 /* NestedStackViewController.swift */,
+			);
+			path = ViewsConstraintsViewController;
+			sourceTree = "<group>";
+		};
 		7B3BA59628CBBA2E0023D97C = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,7 @@
 		7B3BA5A128CBBA2E0023D97C /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				7B2D130328E1D64B00720085 /* ViewsConstraintsViewController */,
 				7BCD631628D60B60003A2585 /* Service */,
 				7B46D21228D5030700B20F9B /* Model */,
 				7B3BA5D228CCE25A0023D97C /* SwipeController */,
@@ -313,11 +327,13 @@
 			files = (
 				7B3BA5A328CBBA2E0023D97C /* AppDelegate.swift in Sources */,
 				7B46D21428D5033000B20F9B /* SwipeCellModel.swift in Sources */,
+				7B2D130728E20AF500720085 /* NestedStackViewController.swift in Sources */,
 				7BCD632128D6231A003A2585 /* SwipeControllerHandlerExtension.swift in Sources */,
 				7B3BA5A528CBBA2E0023D97C /* SceneDelegate.swift in Sources */,
 				7BCD631828D60B71003A2585 /* DatasourceService.swift in Sources */,
 				7BCD631A28D62066003A2585 /* SwipeCollectionViewExtension.swift in Sources */,
 				7B3407B728D4ED95005CE47E /* SwipeCollectionViewController.swift in Sources */,
+				7B2D130528E1D67900720085 /* ViewsConstraintsViewController.swift in Sources */,
 				7B3407B528D4EC4B005CE47E /* SwipeCollectionViewCell.swift in Sources */,
 				7BCD631F28D62275003A2585 /* SwiperControllerAutoLayoutExtension.swift in Sources */,
 				7BCD631D28D621F4003A2585 /* SwipeControllerCollectionViewDelegateMethodExtension.swift in Sources */,
